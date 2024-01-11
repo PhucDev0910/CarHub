@@ -1,0 +1,32 @@
+.card-items {
+    overflow: hidden;
+    width: 410px;
+    background-color: #f9f9fc;
+    border-radius: 15px;
+    padding: 2rem 0;
+}
+
+.card-items:hover{
+    box-shadow: 0px 4px 20px 0px rgba(72, 119, 159, 0.18);
+    background-color: #fff;
+}
+
+.card-items:hover .card-btn-product {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-5px);
+}
+
+.card-btn-product {
+    transform: translateY(20px);
+    opacity: 0;
+    visibility: hidden;
+    transition: all .2s ease-in-out;
+}
+
+.card-info-product {
+    padding: 0 .5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
